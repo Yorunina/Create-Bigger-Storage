@@ -1,6 +1,5 @@
 package uwu.lopyluna.create_bs.registry;
 
-import com.simibubi.create.AllMountedStorageTypes;
 import com.simibubi.create.foundation.data.AssetLookup;
 import com.simibubi.create.foundation.data.SharedProperties;
 import com.tterrag.registrate.util.entry.RegistryEntry;

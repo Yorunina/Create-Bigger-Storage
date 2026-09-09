@@ -16,14 +16,14 @@ public enum TierMaterials {
     COPPER(2, 1, "Copper", Items.COPPER_INGOT, false, true, MapColor.TERRACOTTA_ORANGE, 3, 30, SoundType.COPPER),
     IRON(3, 1, "Iron", Items.IRON_INGOT, false, true, MapColor.COLOR_GRAY, 4, 40, SoundType.NETHERITE_BLOCK),
 
-    EMERALD(4, 2, "Emerald", Items.EMERALD, false, true, MapColor.EMERALD, 4, 50, SoundType.METAL),
-    GOLD(5, 2, "Gold", Items.GOLD_INGOT, false, true, MapColor.GOLD, 5, 60, SoundType.NETHERITE_BLOCK),
+    EMERALD(4, 2, "Emerald", Items.EMERALD, false, true, MapColor.EMERALD, 4, 60, SoundType.METAL),
+    GOLD(5, 2, "Gold", Items.GOLD_INGOT, false, true, MapColor.GOLD, 5, 80, SoundType.NETHERITE_BLOCK),
 
-    CRYSTAL(6, 3, "Crystal", Items.GLASS, true, true, MapColor.GLOW_LICHEN, 5, 70, SoundType.GLASS),
-    DIAMOND(7, 3, "Diamond", Items.DIAMOND, false, true, MapColor.DIAMOND, 6, 80, SoundType.METAL),
+    CRYSTAL(6, 3, "Crystal", Items.GLASS, true, true, MapColor.GLOW_LICHEN, 5, 100, SoundType.GLASS),
+    DIAMOND(7, 3, "Diamond", Items.DIAMOND, false, true, MapColor.DIAMOND, 6, 120, SoundType.METAL),
 
-    OBSIDIAN(8, 4, "Obsidian", Items.OBSIDIAN, false, true, MapColor.COLOR_BLACK, 6, 90, SoundType.NETHERITE_BLOCK),
-    NETHERITE(9, 4, "Netherite", Items.NETHERITE_INGOT, false, true, MapColor.COLOR_BLACK, 7, 100, SoundType.NETHERITE_BLOCK);
+    OBSIDIAN(8, 4, "Obsidian", Items.OBSIDIAN, false, true, MapColor.COLOR_BLACK, 6, 150, SoundType.NETHERITE_BLOCK),
+    NETHERITE(9, 4, "Netherite", Items.NETHERITE_INGOT, false, true, MapColor.COLOR_BLACK, 7, 200, SoundType.NETHERITE_BLOCK);
 
     public final int level;
     public final int baseLevel;
